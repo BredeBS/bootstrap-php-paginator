@@ -7,7 +7,7 @@ class Paginator
     const NUM_PLACEHOLDER = '(:num)';
 
     protected $totalItems;
-    protected $numPages;
+    protected $numPages; 
     protected $itemsPerPage;
     protected $currentPage;
     protected $urlPattern;
