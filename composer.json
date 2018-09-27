@@ -1,0 +1,28 @@
+{
+    "name": "bredebs/bootstrap-php-paginator",
+    "type": "library",
+    "description": "A PHP paginator for use in Bootstrap 4.",
+    "keywords": ["paginator", "pagination", "pager","boostrap-4"],
+    "homepage": "http://github.com/BredeBS/bootstrap-php-paginator",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brede Basualdo",
+            "email": "hola@brede.cl"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.2"
+    },
+    "autoload": {
+         "psr-4": {
+             "BredeBS": "src"
+         }
+     },
+    "autoload-dev": {
+        "psr-0": {"BredeBS\\Tests": "tests/"}
+    }
+}
