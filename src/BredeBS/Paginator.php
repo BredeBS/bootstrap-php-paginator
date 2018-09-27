@@ -1,5 +1,4 @@
 <?php
-
 namespace BredeBS;
 
 class Paginator

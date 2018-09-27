@@ -19,10 +19,12 @@
     },
     "autoload": {
          "psr-4": {
-             "BredeBS": "src"
+             "BredeBS\\": "src/"
          }
      },
     "autoload-dev": {
-        "psr-0": {"BredeBS\\Tests": "tests/"}
+      "psr-4": {
+          "BredeBS\\": "src/"
+      }
     }
 }
